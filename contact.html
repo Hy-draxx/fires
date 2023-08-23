@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="referrer" content="strict-origin" />
+    <link rel="stylesheet" href="font-awesome/fonts/fontawesome-webfont.eot">
+    <link rel="stylesheet" href="font-awesome/fonts/fontawesome-webfont.woff">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>ibbulfireservice</title>
+    <link rel="stylesheet" href="program.css">
+</head>
+<body>
+    <section class="con-header">
+        <nav>
+            <a href="program.html"><img src="image/logo.jpg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="program.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="safety edu.html">SAFETY EDUCATION</a></li>
+                    <li><a href="News.html">NEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" ></i>
+        </nav>
+        <div class="text-box">
+            <H1>Contact Info</H1>
+            <P>Emergency quick line</P>
+        </div>
+    </section>
+
+    <!--------form-------->
+
+    <section class="map">
+        <div class="map-col">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9602962411336!2d6.5697816!3d9.067381700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ea89891b8dc99%3A0xcd7bf5f257fe4c32!2sIBB%20University%20%2C%20Lapai!5e0!3m2!1sen!2sng!4v1691418900178!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!---------form--------->
+
+    <section>
+        <div class="wow">
+            <div class="write">
+                <p><i class="fa fa-home"></i> Xyz Road,Abc Building</p>
+
+                <p><i class="fa fa-phone"></i> +2349166419700</p>
+
+                <p><i class="fa fa-envelope"></i> kafayatmukaila1@gmail.com</p>
+            </div>
+
+            <div>
+                <form action="" class="form">
+                    <div class="input-container">
+                        <div class="input-area">
+                            <input class="text"  id="text" type="text" name="text required" placeholder="Enter Your Name"> <br><br>
+
+                            <input class="text"  type="Email" id="text" name="text required" placeholder="Enter Your Email"> <br><br>
+
+                            <input class="text" id="text" type="text" name="text required" placeholder="Enter your Address" > <br><br>
+
+                            <input class="text"  type="text" name="text required" id="tex" placeholder="Write your Complaint "> <br><br>
+                            <a class="btn black-btn" href="">SUBMIT</a>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+   
+    
+  
+
+      <!-----javascript for toggle menu---->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

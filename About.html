@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="referrer" content="strict-origin" />
+    <link rel="stylesheet" href="font-awesome/fonts/fontawesome-webfont.eot">
+    <link rel="stylesheet" href="font-awesome/fonts/fontawesome-webfont.woff">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>ibbulfireservice</title>
+    <link rel="stylesheet" href="program.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="program.html"><img src="image/logo.jpg" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="program.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="safety edu.html">SAFETY EDUCATION</a></li>
+                    <li><a href="News.html">NEWS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" ></i>
+
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+    <!-------About us content-------->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>IBBUL fire service</h1>
+                <p>  Fire service is an organization that provides fire prevention and fire suppression services. 
+                IBBUL fire service is responsible for protecting students, faculty, 
+                and staff in case of various emergency situations such as fire, natural disasters, chemical spills, and more. 
+                In order to effectively communicate important information, policies, and procedures with the campus community.</p>
+                <a href="" class="btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/frontpa.jpg" >
+            </div>
+        </div>
+    </section>
+
+  <!--About-->
+
+    <section class= "footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+        pellentesque aliquet turpis nulla, eleifend faucibus est 
+        sollicitudin ut. <br> maecenas ut venenatis ex, et dapibus purpus.</p>
+
+        <div class="icon"> 
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div >
+        <p>Made with  <i class="fa fa-heart" ></i> by kafayat</p>
+    </section>
+    
+  
+
+      <!---javascript for toggle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
